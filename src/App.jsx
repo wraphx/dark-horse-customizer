@@ -13,8 +13,8 @@ export default function App() {
     <CustomizationProvider>
       <div className="App">
       <Loader />
-        <Canvas shadows camera={{ position: [0, 0, 20], fov:40 }}>
-          <color attach="background" args={['grey']} />
+        <Canvas shadows camera={{ position: [0, 0, 20], fov:50 }}>
+          <color attach="background" args={['#15151a']} />
           <Suspense fallback={null}>
           <Darkhorse scale={0.6} position={[0, -1.1, 0]} />
           </Suspense>

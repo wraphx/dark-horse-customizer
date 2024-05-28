@@ -187,4 +187,4 @@ console.log()
   )
 }
 
-useGLTF.preload('/models/DarkHorse.glb')
+useGLTF.preload('/DarkHorse.glb')
